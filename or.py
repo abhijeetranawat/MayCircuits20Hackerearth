@@ -1,0 +1,20 @@
+a=int(input())
+b=int(input())
+if(a>b):
+    temp=a
+    a=b
+    b=temp
+count=0
+h=b
+while(b>=1):
+    b=b/2
+    count+=1
+num=pow(2,count)-1
+numa=pow(2,count-1)
+ce=h-a+1
+if(a==h):
+    print(1)
+elif(ce>(num-h)):
+    print(num-a+1)
+else:
+    print(ce+numa-a)
