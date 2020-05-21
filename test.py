@@ -12,3 +12,4 @@ for i in range(a,b):
         lst.append(i|j)
 st=set(lst)
 print(len(st))
+#done

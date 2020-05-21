@@ -5,3 +5,4 @@ for i in range(2):
             lst.append(i|j)
     print(len(lst))
     print(set(lst),len(set(lst)))
+#done

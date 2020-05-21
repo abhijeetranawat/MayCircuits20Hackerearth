@@ -18,3 +18,4 @@ elif(ce>(num-h)):
     print(num-a+1)
 else:
     print(ce+numa-a)
+#done

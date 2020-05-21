@@ -7,3 +7,4 @@ else:
         fact=fact*i
     fact=fact%10
     print(pow(x,fact)%10)
+#done
