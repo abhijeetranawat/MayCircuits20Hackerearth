@@ -16,3 +16,4 @@ for j in range(i+1,m):
         lst[0]=lst[0]+b[j]
     sorted(lst)
 
+#done
